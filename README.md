@@ -1,8 +1,8 @@
 # EE5 Project - Team IoT 02
-## The EE-Plant🌱
+## The EE-Plant 🌱
 
 ### Intro
-If you do not have the time to take care of your plants or when you are away from home for a few days, the EE-Plant can help you! The system can care for different plant species, from common house plants to exotic ones. Specialised algorithms in the plant care system take care of the plant in an automated way.
+If you do not have the time to take care of your plants or when you are away from home for a few days, the EE-Plant can help you! The system can look after different plant species, from common house plants to exotic ones. Specialised algorithms are designed with that in mind, tailored for every kind.
 
 The EE-Plant comes with an Android app that updates the user about the plant. Is it too cold? The temperature goes up! Is it too dry? The system will water the plant. If the reservoir's water level is low, the app will notify the user.
 
