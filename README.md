@@ -28,3 +28,8 @@ The following actuators regulate and control the system:
 The system's exterior is made out of a plexiglass box, MDF and 3D printed components. A power bank supplies the system with 5V. The ESP32 communicates with the database in the server through its Wi-Fi module. Data from the sensors is saved in these databases. It is then made available to the user via the app in form of graphs over time
 
 > With the EE-Plant everything is about nature and comfort.
+
+
+##Design
+![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Other/design.jpg)
+
