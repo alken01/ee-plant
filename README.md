@@ -30,6 +30,6 @@ The system's exterior is made out of a plexiglass box, MDF and 3D printed compon
 > With the EE-Plant everything is about nature and comfort.
 
 
-##Design
+## Design
 ![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Other/design.jpg)
 
