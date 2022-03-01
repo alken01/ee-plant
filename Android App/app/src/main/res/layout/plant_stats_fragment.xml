@@ -4,9 +4,22 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/temporaryText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Plant stats"/>
+
+    <Button
+        android:id="@+id/dBTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/temporaryText"
+        android:layout_centerInParent="true"
+        android:text="push for DB"
+        />
+
+
 
 </RelativeLayout>

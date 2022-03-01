@@ -12,7 +12,6 @@ import com.example.ee_plant.fragments.MainFragmentsActivity;
 public class MainActivity extends AppCompatActivity {
 
     private Button button;
-    //test commit
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(loginIntent);
             }
         });
-
-        //test push
 
     }
 }
