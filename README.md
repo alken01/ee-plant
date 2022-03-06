@@ -1,5 +1,6 @@
 # The EE-Plant 🌱
 ## EE5 Project - Team IoT 02
+![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Other/logo.png)
 
 ### Intro
 If you do not have the time to take care of your plants or when you are away from home for a few days, the EE-Plant can help you! The system can look after different plant species, from common house plants to exotic ones. Specialised algorithms are designed with that in mind, tailored for every kind. 
@@ -32,4 +33,5 @@ The system's exterior is made out of a plexiglass box, MDF and 3D printed compon
 
 ## Design
 ![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Other/design.jpg)
+
 
