@@ -43,7 +43,7 @@ The following user stories were closed:
 - As a user I want to know the water level of the reservoir
 - As a user I want to know if the plant is in light
 
-![Video Sprint 1](https://kuleuven.mediaspace.kaltura.com/media/EE5+Team+IoT+2+-+Sprint+1/1_wgv9ouep)
+[Video Sprint 1](https://kuleuven.mediaspace.kaltura.com/media/EE5+Team+IoT+2+-+Sprint+1/1_wgv9ouep)
 
 ## Design
 ![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Other/design.jpg)
