@@ -31,6 +31,20 @@ The system's exterior is made out of a plexiglass box, MDF and 3D printed compon
 > With the EE-Plant everything is about nature and comfort.
 
 
+## Sprints
+
+### Sprint 1
+In sprint 1 we worked mainly on the system's sensors.
+The following user stories were closed:
+
+- As a user I want to organise the data in databases
+- As a user I want to know the temperature
+- As a user I want to know the humidity and the moisture
+- As a user I want to know the water level of the reservoir
+- As a user I want to know if the plant is in light
+
+![Video Sprint 1](https://kuleuven.mediaspace.kaltura.com/media/EE5+Team+IoT+2+-+Sprint+1/1_wgv9ouep)
+
 ## Design
 ![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Other/design.jpg)
 
