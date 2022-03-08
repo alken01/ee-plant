@@ -1,8 +1,9 @@
 // ADC for water level sensor
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void adc_WaterLevelSensor(void)
 {
-    printf("Hello world!");
+    printf("It works!");
 }
