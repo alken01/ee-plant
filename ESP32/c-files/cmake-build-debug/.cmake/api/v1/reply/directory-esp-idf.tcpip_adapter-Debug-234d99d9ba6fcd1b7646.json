@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/tcpip_adapter",
+		"source" : "/home/tuur/esp-idf-master/components/tcpip_adapter"
+	}
+}

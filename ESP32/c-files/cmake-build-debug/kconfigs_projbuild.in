@@ -1,0 +1,6 @@
+source "/home/tuur/esp-idf-master/components/app_update/Kconfig.projbuild"
+source "/home/tuur/esp-idf-master/components/bootloader/Kconfig.projbuild"
+source "/home/tuur/esp-idf-master/components/esp_rom/Kconfig.projbuild"
+source "/home/tuur/esp-idf-master/components/esptool_py/Kconfig.projbuild"
+source "/home/tuur/esp-idf-master/components/partition_table/Kconfig.projbuild"
+source "/home/tuur/a21iot02/ESP32/c-files/main/Kconfig.projbuild"
