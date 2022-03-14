@@ -9,7 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9ea3a0-43b5-4574-93c8-5b877bfde9dc" name="Changes" comment="Added sample project" />
+    <list default="true" id="5b9ea3a0-43b5-4574-93c8-5b877bfde9dc" name="Changes" comment="Added sample project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ESP32/c-files/main/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ESP32/c-files/main/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ESP32/c-files/main/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ESP32/c-files/main/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ESP32/c-files/sensor_in/temperature_read.c" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +83,8 @@
       <workItem from="1646753582290" duration="78000" />
       <workItem from="1646753697575" duration="591000" />
       <workItem from="1646899521199" duration="636000" />
-      <workItem from="1646903488728" duration="2000" />
+      <workItem from="1646903488728" duration="62000" />
+      <workItem from="1647266577410" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1646743905870</created>
@@ -129,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646748557258</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added sample project">
+      <created>1646903507759</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646903507759</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +166,7 @@
     <MESSAGE value="Made folders" />
     <MESSAGE value="Made updates" />
     <MESSAGE value="Add esp-idf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add esp-idf" />
+    <MESSAGE value="Added sample project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sample project" />
   </component>
 </project>

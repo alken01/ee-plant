@@ -1,2 +1,5 @@
 idf_component_register(SRCS "main.c"
-                    INCLUDE_DIRS ".")
+        SRCS "temperature_read.c"
+        SRCS "gpio_example_main.c"
+        INCLUDE_DIRS "."
+        )
