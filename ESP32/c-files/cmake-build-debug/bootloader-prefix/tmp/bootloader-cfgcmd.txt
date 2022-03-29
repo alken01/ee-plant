@@ -1,1 +1,0 @@
-cmd='/snap/clion/180/bin/cmake/linux/bin/cmake;-DSDKCONFIG=/home/tuur/a21iot02/ESP32/c-files/sdkconfig;-DIDF_PATH=/home/tuur/esp-idf-master;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=python;-DEXTRA_COMPONENT_DIRS=/home/tuur/esp-idf-master/components/bootloader;-DPROJECT_SOURCE_DIR=/home/tuur/a21iot02/ESP32/c-files;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
