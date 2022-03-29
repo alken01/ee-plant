@@ -1,9 +1,24 @@
-#include "temperature_read.h"
+#include "freertos/FreeRTOS.h"
+#include <freertos/task.h>
+#include <FreeRTOSConfig.h>
+#include "adc_read.h"
+#include "wifi.h"
+#include "pwm.h"
+#include "sdkconfig.h"
+#include <stdio.h>
+#include "freertos/task.h"
+#include "driver/gpio.h"
+#include "sdkconfig.h"
+
+//void adc_read(void *pvParameter);
 
 void app_main(void)
 {
+    //xTaskCreate(&adc_read, "adc_read", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+
     while(1) {
-        temperature_read();
+        adc_read();
     }
 
+    //wifi();
 }
