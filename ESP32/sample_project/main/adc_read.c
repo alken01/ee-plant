@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <driver/mcpwm.h>
+#include <driver/ledc.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "pwm.h"
@@ -82,22 +83,52 @@ void config_adc_light(void)
     esp_adc_cal_value_t val_type = esp_adc_cal_characterize(unit, atten, width, DEFAULT_VREF, adc_chars);
 }
 
-void setup_pwm(void)
+void set_pwm(void)
 {
-    while(1)
-    {
-        gpio_reset_pin(HEATER_GPIO);
-        gpio_set_direction(HEATER_GPIO,GPIO_MODE_OUTPUT);
-        gpio_set_level(HEATER_GPIO, 1);
+    ledc_timer_config_t ledc_timer = {
+            .duty_resolution = LEDC_TIMER_13_BIT, // resolution of PWM duty
+            .freq_hz = 5000,                      // frequency of PWM signal
+            .speed_mode = LEDC_HIGH_SPEED_MODE,           // timer mode
+            .timer_num = LEDC_TIMER_0,            // timer index
+            .clk_cfg = LEDC_AUTO_CLK,              // Auto select the source clock
+    };
+    ledc_timer_config(&ledc_timer);
+    ledc_channel_config_t ledc_channel = {
+            .channel    = LEDC_CHANNEL_0,
+            .duty       = 0,
+            .gpio_num   = 33,
+            .speed_mode = LEDC_HIGH_SPEED_MODE,
+            .hpoint     = 0,
+            .timer_sel  = LEDC_TIMER_0,
+            .flags.output_invert = 0
+    };
+    ledc_channel_config(&ledc_channel);
+    ledc_set_duty(ledc_channel.speed_mode, ledc_channel.channel, 4000);
+    ledc_update_duty(ledc_channel.speed_mode, ledc_channel.channel);
+}
 
-        vTaskDelay(1 / portTICK_PERIOD_MS);
-
-        gpio_reset_pin(HEATER_GPIO);
-        gpio_set_direction(HEATER_GPIO,GPIO_MODE_OUTPUT);
-        gpio_set_level(HEATER_GPIO, 0);
-
-        vTaskDelay(1 / portTICK_PERIOD_MS);
-    }
+void reset_pwm(void)
+{
+    ledc_timer_config_t ledc_timer = {
+            .duty_resolution = LEDC_TIMER_13_BIT, // resolution of PWM duty
+            .freq_hz = 5000,                      // frequency of PWM signal
+            .speed_mode = LEDC_HIGH_SPEED_MODE,           // timer mode
+            .timer_num = LEDC_TIMER_0,            // timer index
+            .clk_cfg = LEDC_AUTO_CLK,              // Auto select the source clock
+    };
+    ledc_timer_config(&ledc_timer);
+    ledc_channel_config_t ledc_channel = {
+            .channel    = LEDC_CHANNEL_0,
+            .duty       = 0,
+            .gpio_num   = 33,
+            .speed_mode = LEDC_HIGH_SPEED_MODE,
+            .hpoint     = 0,
+            .timer_sel  = LEDC_TIMER_0,
+            .flags.output_invert = 0
+    };
+    ledc_channel_config(&ledc_channel);
+    ledc_set_duty(ledc_channel.speed_mode, ledc_channel.channel, 0);
+    ledc_update_duty(ledc_channel.speed_mode, ledc_channel.channel);
 }
 
 void adc_read(void)
@@ -155,18 +186,17 @@ void adc_read(void)
 
     }
 
-    if(temperature > 27.0)
+    if(temperature > 21.5)
     {
         gpio_reset_pin(FAN_GPIO);
         gpio_set_direction(FAN_GPIO,GPIO_MODE_OUTPUT);
         gpio_set_level(FAN_GPIO, 1);
 
-        mcpwm_stop(MCPWM_UNIT_0,MCPWM_TIMER_0);
+        reset_pwm();
 
-
-        gpio_reset_pin(HEATER_GPIO);
-        gpio_set_direction(HEATER_GPIO,GPIO_MODE_OUTPUT);
-        gpio_set_level(HEATER_GPIO, 0);
+        //gpio_reset_pin(HEATER_GPIO);
+        //gpio_set_direction(HEATER_GPIO,GPIO_MODE_OUTPUT);
+        //gpio_set_level(HEATER_GPIO, 0);
     }
     else
     {
@@ -174,25 +204,10 @@ void adc_read(void)
         gpio_set_direction(FAN_GPIO,GPIO_MODE_OUTPUT);
         gpio_set_level(FAN_GPIO, 0);
 
-        xTaskCreate(setup_pwm,
-                    "PWM",
-                    1000,
-                    NULL,
-                    1,
-                    NULL);
+        set_pwm();
 
-
-        /*
-        mcpwm_gpio_init(MCPWM_UNIT_0, MCPWM0A, HEATER_GPIO); // To drive a RC servo, one MCPWM generator is enough
-        mcpwm_config_t pwm_config = {
-                .frequency = 1, // frequency = 50Hz, i.e. for every servo motor time period should be 20ms
-                .cmpr_a = 0,     // duty cycle of PWMxA = 0
-                .counter_mode = MCPWM_UP_COUNTER,
-                .duty_mode = MCPWM_DUTY_MODE_0,
-        };
-        mcpwm_init(MCPWM_UNIT_0, MCPWM_TIMER_0, &pwm_config);
-        mcpwm_start(MCPWM_UNIT_0,MCPWM_TIMER_0);
-         */
+        //gpio_reset_pin(HEATER_GPIO);
+        //gpio_set_direction(HEATER_GPIO,GPIO_MODE_OUTPUT);
+        //gpio_set_level(HEATER_GPIO, 1);
     }
 }
-

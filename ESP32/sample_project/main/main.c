@@ -18,6 +18,7 @@ void app_main(void)
 
     while(1) {
         adc_read();
+        //pwm();
     }
 
     //wifi();
