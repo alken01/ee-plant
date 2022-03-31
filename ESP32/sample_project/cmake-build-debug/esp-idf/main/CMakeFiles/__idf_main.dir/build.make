@@ -69,10 +69,15 @@ include esp-idf/main/CMakeFiles/__idf_main.dir/progress.make
 # Include the compile flags for this target's objects.
 include esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 
+DigiCertAssuredIDRootCA.pem.S: /home/tuur/esp-idf-master/tools/cmake/scripts/data_file_embed_asm.cmake
+DigiCertAssuredIDRootCA.pem.S: ../main/DigiCertAssuredIDRootCA.pem
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../DigiCertAssuredIDRootCA.pem.S"
+	/snap/clion/184/bin/cmake/linux/bin/cmake -D DATA_FILE=/home/tuur/a21iot02/ESP32/sample_project/main/DigiCertAssuredIDRootCA.pem -D SOURCE_FILE=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/DigiCertAssuredIDRootCA.pem.S -D FILE_TYPE=TEXT -P /home/tuur/esp-idf-master/tools/cmake/scripts/data_file_embed_asm.cmake
+
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../main/main.c
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj"
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF CMakeFiles/__idf_main.dir/main.c.obj.d -o CMakeFiles/__idf_main.dir/main.c.obj -c /home/tuur/a21iot02/ESP32/sample_project/main/main.c
 
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.i: cmake_force
@@ -86,7 +91,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.s: cmake_force
 esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.obj: ../main/adc_read.c
 esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.obj"
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.obj -MF CMakeFiles/__idf_main.dir/adc_read.c.obj.d -o CMakeFiles/__idf_main.dir/adc_read.c.obj -c /home/tuur/a21iot02/ESP32/sample_project/main/adc_read.c
 
 esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.i: cmake_force
@@ -100,7 +105,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.s: cmake_force
 esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj: ../main/wifi.c
 esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj"
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj -MF CMakeFiles/__idf_main.dir/wifi.c.obj.d -o CMakeFiles/__idf_main.dir/wifi.c.obj -c /home/tuur/a21iot02/ESP32/sample_project/main/wifi.c
 
 esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.i: cmake_force
@@ -114,7 +119,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.s: cmake_force
 esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj: ../main/pwm.c
 esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj"
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj -MF CMakeFiles/__idf_main.dir/pwm.c.obj.d -o CMakeFiles/__idf_main.dir/pwm.c.obj -c /home/tuur/a21iot02/ESP32/sample_project/main/pwm.c
 
 esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.i: cmake_force
@@ -125,12 +130,41 @@ esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/pwm.c.s"
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tuur/a21iot02/ESP32/sample_project/main/pwm.c -o CMakeFiles/__idf_main.dir/pwm.c.s
 
+esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj: ../main/connect.c
+esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj"
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj -MF CMakeFiles/__idf_main.dir/connect.c.obj.d -o CMakeFiles/__idf_main.dir/connect.c.obj -c /home/tuur/a21iot02/ESP32/sample_project/main/connect.c
+
+esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_main.dir/connect.c.i"
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tuur/a21iot02/ESP32/sample_project/main/connect.c > CMakeFiles/__idf_main.dir/connect.c.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/connect.c.s"
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tuur/a21iot02/ESP32/sample_project/main/connect.c -o CMakeFiles/__idf_main.dir/connect.c.s
+
+esp-idf/main/CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.obj: DigiCertAssuredIDRootCA.pem.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.obj"
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.obj -c /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/DigiCertAssuredIDRootCA.pem.S
+
+esp-idf/main/CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.i"
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/DigiCertAssuredIDRootCA.pem.S > CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.s"
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && /home/tuur/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/DigiCertAssuredIDRootCA.pem.S -o CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.s
+
 # Object files for target __idf_main
 __idf_main_OBJECTS = \
 "CMakeFiles/__idf_main.dir/main.c.obj" \
 "CMakeFiles/__idf_main.dir/adc_read.c.obj" \
 "CMakeFiles/__idf_main.dir/wifi.c.obj" \
-"CMakeFiles/__idf_main.dir/pwm.c.obj"
+"CMakeFiles/__idf_main.dir/pwm.c.obj" \
+"CMakeFiles/__idf_main.dir/connect.c.obj" \
+"CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.obj"
 
 # External object files for target __idf_main
 __idf_main_EXTERNAL_OBJECTS =
@@ -139,9 +173,11 @@ esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/build.make
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libmain.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libmain.a"
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean_target.cmake
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_main.dir/link.txt --verbose=$(VERBOSE)
 
@@ -153,7 +189,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/clean:
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean.cmake
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/clean
 
-esp-idf/main/CMakeFiles/__idf_main.dir/depend:
+esp-idf/main/CMakeFiles/__idf_main.dir/depend: DigiCertAssuredIDRootCA.pem.S
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tuur/a21iot02/ESP32/sample_project /home/tuur/a21iot02/ESP32/sample_project/main /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/depend
 

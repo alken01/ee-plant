@@ -11051,6 +11051,9 @@
 		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/main/adc_read.h">
 			<Option target="__idf_main"/>
 		</Unit>
+		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/main/connect.c">
+			<Option target="__idf_main"/>
+		</Unit>
 		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/main/main.c">
 			<Option target="__idf_main"/>
 		</Unit>

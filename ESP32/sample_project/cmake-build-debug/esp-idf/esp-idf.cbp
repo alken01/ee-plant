@@ -10546,6 +10546,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/DigiCertAssuredIDRootCA.pem.S">
+			<Option target="__idf_main"/>
+		</Unit>
 		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/mbedtls/x509_crt_bundle">
 			<Option target="__idf_mbedtls"/>
 		</Unit>
@@ -10555,10 +10558,16 @@
 		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/x509_crt_bundle.S">
 			<Option target="__idf_mbedtls"/>
 		</Unit>
+		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/main/DigiCertAssuredIDRootCA.pem">
+			<Option target="__idf_main"/>
+		</Unit>
 		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/main/adc_read.c">
 			<Option target="__idf_main"/>
 		</Unit>
 		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/main/adc_read.h">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/main/connect.c">
 			<Option target="__idf_main"/>
 		</Unit>
 		<Unit filename="/home/tuur/a21iot02/ESP32/sample_project/main/main.c">

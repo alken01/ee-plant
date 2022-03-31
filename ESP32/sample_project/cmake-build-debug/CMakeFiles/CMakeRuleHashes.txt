@@ -17,6 +17,7 @@ d3736296e39b48730b455915b48c5d29 CMakeFiles/monitor
 64ed7827be3335d8d45f3c8f53876797 CMakeFiles/size-files
 f9d2da282ff54dd8cf41414a99815f0d CMakeFiles/uf2
 aaf89ea1a0cad44505024d31b733cae4 CMakeFiles/uf2-app
+34fd00eef6b632ec9c7bc7e1184b93cb DigiCertAssuredIDRootCA.pem.S
 1e517834764d7f67f17d133348f98ee1 bootloader-prefix/src/bootloader-stamp/bootloader-build
 4b75683478fb174b02b92d871137df63 bootloader-prefix/src/bootloader-stamp/bootloader-configure
 3ad1806dd6b0a65e7d93273f96d482bf bootloader-prefix/src/bootloader-stamp/bootloader-download

@@ -175,6 +175,14 @@ __idf_main/fast:
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
+__/__/DigiCertAssuredIDRootCA.pem.obj: __/__/DigiCertAssuredIDRootCA.pem.S.obj
+.PHONY : __/__/DigiCertAssuredIDRootCA.pem.obj
+
+# target to build an object file
+__/__/DigiCertAssuredIDRootCA.pem.S.obj:
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/__/DigiCertAssuredIDRootCA.pem.S.obj
+.PHONY : __/__/DigiCertAssuredIDRootCA.pem.S.obj
+
 adc_read.obj: adc_read.c.obj
 .PHONY : adc_read.obj
 
@@ -198,6 +206,30 @@ adc_read.s: adc_read.c.s
 adc_read.c.s:
 	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/adc_read.c.s
 .PHONY : adc_read.c.s
+
+connect.obj: connect.c.obj
+.PHONY : connect.obj
+
+# target to build an object file
+connect.c.obj:
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj
+.PHONY : connect.c.obj
+
+connect.i: connect.c.i
+.PHONY : connect.i
+
+# target to preprocess a source file
+connect.c.i:
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.i
+.PHONY : connect.c.i
+
+connect.s: connect.c.s
+.PHONY : connect.s
+
+# target to generate assembly for a file
+connect.c.s:
+	cd /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.s
+.PHONY : connect.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -284,9 +316,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_main"
+	@echo "... __/__/DigiCertAssuredIDRootCA.pem.obj"
 	@echo "... adc_read.obj"
 	@echo "... adc_read.i"
 	@echo "... adc_read.s"
+	@echo "... connect.obj"
+	@echo "... connect.i"
+	@echo "... connect.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
