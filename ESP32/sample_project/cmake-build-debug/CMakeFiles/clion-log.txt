@@ -9,7 +9,7 @@ Requirement files:
  - /home/tuur/esp-idf-master/tools/requirements/requirements.core.txt
 Python being checked: /home/tuur/.espressif/python_env/idf5.0_py3.8_env/bin/python
 -- Project sdkconfig file /home/tuur/a21iot02/ESP32/sample_project/sdkconfig
--- App "main" version: b425e09-dirty
+-- App "main" version: 177a2de-dirty
 -- Adding linker script /home/tuur/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script /home/tuur/esp-idf-master/components/esp_system/ld/esp32/sections.ld.in
 -- Adding linker script /home/tuur/esp-idf-master/components/esp_rom/esp32/ld/esp32.rom.ld
