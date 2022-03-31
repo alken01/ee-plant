@@ -16,10 +16,10 @@ void app_main(void)
 {
     //xTaskCreate(&adc_read, "adc_read", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
 
+    /*
     while(1) {
-        adc_read();
+        //adc_read();
         //pwm();
-    }
-
-    //wifi();
+    }*/
+    wifi();
 }
