@@ -1760,7 +1760,7 @@
 				{
 					"directoryIndex" : 14,
 					"id" : "__idf_app_update::@cc3b426666063acc9674",
-					"jsonFile" : "target-__idf_app_update-Debug-9ec3d81c20fd69fa8686.json",
+					"jsonFile" : "target-__idf_app_update-Debug-fcdc9753584fecfd558c.json",
 					"name" : "__idf_app_update",
 					"projectIndex" : 1
 				},
@@ -1921,7 +1921,7 @@
 				{
 					"directoryIndex" : 72,
 					"id" : "__idf_esp_local_ctrl::@d6aad58d2946e56208ef",
-					"jsonFile" : "target-__idf_esp_local_ctrl-Debug-bf4a17086a4597cdafc4.json",
+					"jsonFile" : "target-__idf_esp_local_ctrl-Debug-45c6cf75ba9fbaa71ab5.json",
 					"name" : "__idf_esp_local_ctrl",
 					"projectIndex" : 1
 				},
@@ -2082,7 +2082,7 @@
 				{
 					"directoryIndex" : 92,
 					"id" : "__idf_main::@7368607ed66887415643",
-					"jsonFile" : "target-__idf_main-Debug-c1836f83d2843d801888.json",
+					"jsonFile" : "target-__idf_main-Debug-0f4b9b34ad01d5f21848.json",
 					"name" : "__idf_main",
 					"projectIndex" : 1
 				},
@@ -2236,7 +2236,7 @@
 				{
 					"directoryIndex" : 91,
 					"id" : "__idf_wifi_provisioning::@9d7e7ffe1b15746c1098",
-					"jsonFile" : "target-__idf_wifi_provisioning-Debug-6ffe2861f40d2130a887.json",
+					"jsonFile" : "target-__idf_wifi_provisioning-Debug-b5ba8a28a725e0943281.json",
 					"name" : "__idf_wifi_provisioning",
 					"projectIndex" : 1
 				},
@@ -2257,7 +2257,7 @@
 				{
 					"directoryIndex" : 22,
 					"id" : "__ldgen_output_sections.ld::@874df54e61e20112dfd4",
-					"jsonFile" : "target-__ldgen_output_sections.ld-Debug-8e0640dd1a7b809c350f.json",
+					"jsonFile" : "target-__ldgen_output_sections.ld-Debug-b7a94bcd55b0a2cec0b9.json",
 					"name" : "__ldgen_output_sections.ld",
 					"projectIndex" : 1
 				},
@@ -2418,7 +2418,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main.elf-Debug-ab107dd79e28437f1021.json",
+					"jsonFile" : "target-main.elf-Debug-bec9c17fc51e58406397.json",
 					"name" : "main.elf",
 					"projectIndex" : 0
 				},
