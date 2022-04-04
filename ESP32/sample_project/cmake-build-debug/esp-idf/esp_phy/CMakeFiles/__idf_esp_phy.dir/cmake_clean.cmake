@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.obj"
-  "CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.obj.d"
   "CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj"
   "CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj.d"
   "libesp_phy.a"

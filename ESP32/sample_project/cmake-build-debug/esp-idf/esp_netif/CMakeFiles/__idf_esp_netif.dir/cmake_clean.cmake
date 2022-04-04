@@ -13,8 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj.d"
   "CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sta_list.c.obj"
   "CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sta_list.c.obj.d"
-  "CMakeFiles/__idf_esp_netif.dir/vfs_l2tap/esp_vfs_l2tap.c.obj"
-  "CMakeFiles/__idf_esp_netif.dir/vfs_l2tap/esp_vfs_l2tap.c.obj.d"
   "libesp_netif.a"
   "libesp_netif.pdb"
 )

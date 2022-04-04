@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj.d"
   "CMakeFiles/__idf_soc.dir/lldesc.c.obj"
   "CMakeFiles/__idf_soc.dir/lldesc.c.obj.d"
+  "CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj"
+  "CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj.d"
   "libsoc.a"
   "libsoc.pdb"
 )
