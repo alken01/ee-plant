@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_main.dir/main.c.obj.d"
   "CMakeFiles/__idf_main.dir/pwm.c.obj"
   "CMakeFiles/__idf_main.dir/pwm.c.obj.d"
+  "CMakeFiles/__idf_main.dir/water_pump.c.obj"
+  "CMakeFiles/__idf_main.dir/water_pump.c.obj.d"
   "CMakeFiles/__idf_main.dir/wifi.c.obj"
   "CMakeFiles/__idf_main.dir/wifi.c.obj.d"
   "libmain.a"

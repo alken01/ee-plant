@@ -3,6 +3,7 @@ idf_component_register(SRCS "main.c"
         SRCS "wifi.c"
         SRCS "pwm.c"
         SRCS "connect.c"
+        SRCS "water_pump.c"
         INCLUDE_DIRS "."
         EMBED_TXTFILES DigiCertAssuredIDRootCA.pem
         )

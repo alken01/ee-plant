@@ -278,6 +278,30 @@ pwm.c.s:
 	cd /d C:\Users\siebe\Documents\3de_bac\2de_semester\EE5\a21iot02\ESP32\sample_project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.s
 .PHONY : pwm.c.s
 
+water_pump.obj: water_pump.c.obj
+.PHONY : water_pump.obj
+
+# target to build an object file
+water_pump.c.obj:
+	cd /d C:\Users\siebe\Documents\3de_bac\2de_semester\EE5\a21iot02\ESP32\sample_project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/water_pump.c.obj
+.PHONY : water_pump.c.obj
+
+water_pump.i: water_pump.c.i
+.PHONY : water_pump.i
+
+# target to preprocess a source file
+water_pump.c.i:
+	cd /d C:\Users\siebe\Documents\3de_bac\2de_semester\EE5\a21iot02\ESP32\sample_project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/water_pump.c.i
+.PHONY : water_pump.c.i
+
+water_pump.s: water_pump.c.s
+.PHONY : water_pump.s
+
+# target to generate assembly for a file
+water_pump.c.s:
+	cd /d C:\Users\siebe\Documents\3de_bac\2de_semester\EE5\a21iot02\ESP32\sample_project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/water_pump.c.s
+.PHONY : water_pump.c.s
+
 wifi.obj: wifi.c.obj
 .PHONY : wifi.obj
 
@@ -328,6 +352,9 @@ help:
 	@echo ... pwm.obj
 	@echo ... pwm.i
 	@echo ... pwm.s
+	@echo ... water_pump.obj
+	@echo ... water_pump.i
+	@echo ... water_pump.s
 	@echo ... wifi.obj
 	@echo ... wifi.i
 	@echo ... wifi.s

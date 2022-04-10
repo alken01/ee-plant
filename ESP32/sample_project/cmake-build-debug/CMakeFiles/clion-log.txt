@@ -4,7 +4,7 @@
 Python requirements from C:\Espressif\frameworks\esp-idf-v4.4-2\requirements.txt are satisfied.
 -- Project sdkconfig file C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/sdkconfig
 -- Could NOT find Perl (missing: PERL_EXECUTABLE) 
--- App "main" version: 452ff4a-dirty
+-- App "main" version: c0a9d2d-dirty
 -- Adding linker script C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script C:/Espressif/frameworks/esp-idf-v4.4-2/components/esp_system/ld/esp32/sections.ld.in
 -- Adding linker script C:/Espressif/frameworks/esp-idf-v4.4-2/components/esp_rom/esp32/ld/esp32.rom.ld

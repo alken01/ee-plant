@@ -15135,6 +15135,9 @@
 		<Unit filename="C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/main/pwm.h">
 			<Option target="__idf_main"/>
 		</Unit>
+		<Unit filename="C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/main/water_pump.c">
+			<Option target="__idf_main"/>
+		</Unit>
 		<Unit filename="C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/main/wifi.c">
 			<Option target="__idf_main"/>
 		</Unit>

@@ -147,6 +147,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/main/connect.c" "esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/connect.c.obj.d"
   "C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/main/main.c" "esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d"
   "C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/main/pwm.c" "esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/pwm.c.obj.d"
+  "C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/main/water_pump.c" "esp-idf/main/CMakeFiles/__idf_main.dir/water_pump.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/water_pump.c.obj.d"
   "C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/main/wifi.c" "esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj.d"
   )
 
