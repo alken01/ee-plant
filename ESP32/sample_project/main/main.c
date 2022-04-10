@@ -9,7 +9,7 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 #include "sdkconfig.h"
-
+#include "water_pump.h"
 //void adc_read(void *pvParameter);
 
 void app_main(void)
@@ -21,7 +21,7 @@ void app_main(void)
         //adc_read();
         //pwm();
     }*/
-    wifi();
+    //wifi();
 
 
 }
