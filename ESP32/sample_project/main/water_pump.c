@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdio.h>
 #include <stdbool.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
-#include "driver/timer.h"
 #include "freertos/timers.h"
 #include "water_pump.h"
 

@@ -22,7 +22,7 @@
    the config you want - ie #define EXAMPLE_WIFI_SSID "mywifissid"
 */
 #define EXAMPLE_ESP_WIFI_SSID      "Wifi_Tuur"
-#define EXAMPLE_ESP_WIFI_PASS      "Tuur1234""
+#define EXAMPLE_ESP_WIFI_PASS      "Tuur1234"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  5
 
 #if CONFIG_ESP_WIFI_AUTH_OPEN
