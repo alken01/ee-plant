@@ -22,6 +22,7 @@ void app_main(void)
         //pwm();
     }*/
     //wifi();
+    water_pump();
 
 
 }
