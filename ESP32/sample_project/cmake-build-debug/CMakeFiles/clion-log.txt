@@ -1,27 +1,10 @@
 "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\siebe\Documents\3de_bac\2de_semester\EE5\a21iot02\ESP32\sample_project
--- IDF_TARGET not set, using default target: esp32
--- Found Git: C:/Espressif/tools/idf-git/2.34.2/cmd/git.exe (found version "2.34.1.windows.1") 
--- The C compiler identification is GNU 8.4.0
--- The CXX compiler identification is GNU 8.4.0
--- The ASM compiler identification is GNU
--- Found assembler: C:/Espressif/tools/xtensa-esp32-elf/esp-2021r2-patch2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-2021r2-patch2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-2021r2-patch2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Building ESP-IDF components for target esp32
 -- Checking Python dependencies...
 Python requirements from C:\Espressif\frameworks\esp-idf-v4.4-2\requirements.txt are satisfied.
 -- Project sdkconfig file C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/sdkconfig
--- Found PythonInterp: C:/Espressif/python_env/idf4.4_py3.8_env/Scripts/python.exe (found version "3.8.7") 
 -- Could NOT find Perl (missing: PERL_EXECUTABLE) 
--- App "main" version: f0f45b4-dirty
+-- App "main" version: 403d2ba-dirty
 -- Adding linker script C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/cmake-build-debug/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script C:/Espressif/frameworks/esp-idf-v4.4-2/components/esp_system/ld/esp32/sections.ld.in
 -- Adding linker script C:/Espressif/frameworks/esp-idf-v4.4-2/components/esp_rom/esp32/ld/esp32.rom.ld

@@ -13,6 +13,7 @@
 #include "esp_event.h"
 #include "esp_log.h"
 #include "nvs_flash.h"
+#include "esp_wifi_types.h"
 
 #include "lwip/err.h"
 #include "lwip/sys.h"
@@ -111,7 +112,7 @@ void wifi_init_sta(void)
                     /* Setting a password implies station will connect to all security modes including WEP/WPA.
                      * However these modes are deprecated and not advisable to be used. Incase your Access point
                      * doesn't support WPA2, these mode can be enabled by commenting below line */
-                    .threshold.authmode = ESP_WIFI_SCAN_AUTH_MODE_THRESHOLD,
+                   // .threshold.authmode = ESP_WIFI_SCAN_AUTH_MODE_THRESHOLD,
             },
     };
     ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA) );
