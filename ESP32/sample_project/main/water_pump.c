@@ -21,20 +21,16 @@ void myTimerCallBack(TimerHandle_t xTimer)
 {
     const char *strTimerName;
     strTimerName = pcTimerGetName(xTimer);
-    printf("Timer Name = %s done! \nplants watered\n", strTimerName);
-
+    printf("Timer: %s done! \nPlants watered\n", strTimerName);
     gpio_set_level(PUMP_GPIO, 0);
 }
 
 void water_for_5s(void)
 {
-    printf("in function water_for_5s \n turning pump on for 5s \n");
     gpio_set_level(PUMP_GPIO, 1);
-    TimerHandle_t  myTimer1 = NULL;
-
-    myTimer1 = xTimerCreate("myTimer1", pdMS_TO_TICKS(10000), pdFALSE, (void *) 1, myTimerCallBack);
-    xTimerStart(myTimer1, 0);
-
+    TimerHandle_t  Timer_pump = NULL;
+    Timer_pump = xTimerCreate("Timer_pump", pdMS_TO_TICKS(5000), pdFALSE, (void *) 1, myTimerCallBack);
+    xTimerStart(Timer_pump, 0);
 }
 
 void full_tank(void)
@@ -52,7 +48,6 @@ void empty_tank(void)
 {
     tank_empty = true;
     printf("tank empty: please refill water \n");
-
 }
 
 void almost_empty_tank(void)
@@ -60,8 +55,6 @@ void almost_empty_tank(void)
     printf("tank almost empty: please refill water\n ");
 
 }
-
-
 
 void pin_config(gpio_num_t PIN)
 {
@@ -90,8 +83,7 @@ void pump_config(void)
     gpio_set_level(PUMP_GPIO, 0);
 }
 
-
-
+// MAIN FUNCTIONS
 
 void read_level(void)
 {
@@ -101,7 +93,6 @@ void read_level(void)
     vTaskDelay(100);
     read_pins(); //get pin value 0 or 1
     vTaskDelay(100);
-
 
     //conditions
 
@@ -113,13 +104,10 @@ void read_level(void)
     if(high == 0 && mid == 1 && low == 1)
     {
         almost_full_tank();
-
-
     }
     if(high == 0 && mid == 0 && low == 1)
     {
         almost_empty_tank();
-
     }
     if(high == 0 && mid == 0 && low == 0)
     {
@@ -132,6 +120,10 @@ void pump(void)
     if(!tank_empty)
     {
         water_for_5s();
+    }
+    else
+    {
+        printf("Please refill water first. \n");
     }
 }
 
