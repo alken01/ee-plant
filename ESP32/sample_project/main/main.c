@@ -12,8 +12,10 @@
 #include "water_pump.h"
 //void adc_read(void *pvParameter);
 
+
 void app_main(void)
 {
+
     //xTaskCreate(&adc_read, "adc_read", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
 
     /*
@@ -22,7 +24,12 @@ void app_main(void)
         //pwm();
     }*/
     //wifi();
-    water_pump();
+
+        read_level(); //OK!
+        pump();
+
+
+
 
 
 }

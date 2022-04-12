@@ -21,28 +21,47 @@ void myTimerCallBack(TimerHandle_t xTimer)
 {
     const char *strTimerName;
     strTimerName = pcTimerGetName(xTimer);
-    printf("Timer Name = %s!  \n", strTimerName);
+    printf("Timer Name = %s done! \nplants watered\n", strTimerName);
+
     gpio_set_level(PUMP_GPIO, 0);
 }
 
 void water_for_5s(void)
 {
+    printf("in function water_for_5s \n turning pump on for 5s \n");
+    gpio_set_level(PUMP_GPIO, 1);
     TimerHandle_t  myTimer1 = NULL;
 
-    myTimer1 = xTimerCreate("myTimer1", pdMS_TO_TICKS(5000), pdTRUE, (void *) 1, myTimerCallBack);
+    myTimer1 = xTimerCreate("myTimer1", pdMS_TO_TICKS(10000), pdFALSE, (void *) 1, myTimerCallBack);
     xTimerStart(myTimer1, 0);
+
 }
 
 void full_tank(void)
 {
-    printf("water refilled");
+    tank_empty = false;
+    printf(" full tank: water refilled \n");
+}
+
+void almost_full_tank(void)
+{
+    printf("almost full tank: \n");
 }
 
 void empty_tank(void)
 {
     tank_empty = true;
-    printf("please refill water");
+    printf("tank empty: please refill water \n");
+
 }
+
+void almost_empty_tank(void)
+{
+    printf("tank almost empty: please refill water\n ");
+
+}
+
+
 
 void pin_config(gpio_num_t PIN)
 {
@@ -73,11 +92,15 @@ void pump_config(void)
 
 
 
-void water_pump(void)
+
+void read_level(void)
 {
     input_config(); //resets and sets pins as input
+    vTaskDelay(100);
     pump_config(); //resets and sets pin as initial low output
+    vTaskDelay(100);
     read_pins(); //get pin value 0 or 1
+    vTaskDelay(100);
 
 
     //conditions
@@ -85,19 +108,31 @@ void water_pump(void)
     if( high == 1 && mid == 1 && low == 1 )
     {
         full_tank();
-    }
 
-    if(low != 1)
-    {
-        gpio_set_level(PUMP_GPIO, 1);
-        water_for_5s();
     }
-    else
+    if(high == 0 && mid == 1 && low == 1)
+    {
+        almost_full_tank();
+
+
+    }
+    if(high == 0 && mid == 0 && low == 1)
+    {
+        almost_empty_tank();
+
+    }
+    if(high == 0 && mid == 0 && low == 0)
     {
         empty_tank();
     }
+}
 
-
+void pump(void)
+{
+    if(!tank_empty)
+    {
+        water_for_5s();
+    }
 }
 
 

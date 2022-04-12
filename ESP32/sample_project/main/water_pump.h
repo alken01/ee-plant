@@ -5,4 +5,5 @@ void empty_tank(void);
 void input_config(void);
 void read_pins(void);
 void pump_config(void);
-void water_pump(void);
+void read_level(void);
+void pump(void);
