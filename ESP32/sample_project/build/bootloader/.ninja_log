@@ -96,8 +96,8 @@
 31860	31988	6713306687265439	esp-idf/main/libmain.a	46b104c724d5d7b7
 31990	32677	6713306694085437	bootloader.elf	890f891c4c9eccfd
 32679	32956	6713306696957116	.bin_timestamp	166c0c13d1db38ae
-6	108	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b28de8a3588acae2
-3	9398	6714806704708073	build.ninja	e96e5fe24a3a6d43
+5	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b28de8a3588acae2
+3	5739	6714829231650258	build.ninja	e96e5fe24a3a6d43
 21375	22771	6713306585954867	esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj	8ff34d60af1b94e4
-3	9490	6714806704708073	build.ninja	e96e5fe24a3a6d43
+2	8869	6714829231650258	build.ninja	e96e5fe24a3a6d43
 6	101	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b28de8a3588acae2

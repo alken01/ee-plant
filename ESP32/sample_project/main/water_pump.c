@@ -6,10 +6,12 @@
 #include "freertos/timers.h"
 #include "water_pump.h"
 
-#define WATER_LEVEL_HIGH_GPIO GPIO_NUM_32
+//gpio_num_needs adjustments
+
+#define WATER_LEVEL_HIGH_GPIO GPIO_NUM_12
 #define WATER_LEVEL_MID_GPIO GPIO_NUM_33
-#define WATER_LEVEL_LOW_GPIO GPIO_NUM_34
-#define PUMP_GPIO   GPIO_NUM_27
+#define WATER_LEVEL_LOW_GPIO GPIO_NUM_13
+#define PUMP_GPIO   GPIO_NUM_23
 
 bool tank_full = true;
 bool tank_empty = false;
