@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_esp_adc_cal.dir/esp32/esp_adc_cal.c.obj"
-  "CMakeFiles/__idf_esp_adc_cal.dir/esp32/esp_adc_cal.c.obj.d"
-  "CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_common.c.obj"
-  "CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_common.c.obj.d"
+  "CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_esp32.c.obj"
+  "CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_esp32.c.obj.d"
   "libesp_adc_cal.a"
   "libesp_adc_cal.pdb"
 )
