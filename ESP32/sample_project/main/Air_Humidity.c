@@ -78,6 +78,11 @@ _Noreturn void counter_task(void* arg) {
 
 }
 
+void stop_humidity(void){
+    pcnt_unit_stop(pcnt_unit); //stop the pcnt unit
+    vTaskDelete(TaskHandle_Counter); //remove the task
+}
+
     void start_humidity(void) {
 
     gpio_set_direction(GPIO_FREQ, GPIO_MODE_INPUT);
