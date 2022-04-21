@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/siebe/Documents/3de_bac/2de_semester/EE5/a21iot02/ESP32/sample_project/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/tuur/a21iot02/ESP32/sample_project/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

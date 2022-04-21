@@ -17,13 +17,14 @@
 
 #include "lwip/err.h"
 #include "lwip/sys.h"
+#include "https_request.h"
 
 /* The examples use WiFi configuration that you can set via project configuration menu
    If you'd rather not, just change the below entries to strings with
    the config you want - ie #define EXAMPLE_WIFI_SSID "mywifissid"
 */
-#define EXAMPLE_ESP_WIFI_SSID      "Wifi_Tuur"
-#define EXAMPLE_ESP_WIFI_PASS      "Tuur1234"
+#define EXAMPLE_ESP_WIFI_SSID      "wifituur"
+#define EXAMPLE_ESP_WIFI_PASS      "wifituur"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  5
 
 #if CONFIG_ESP_WIFI_AUTH_OPEN
@@ -78,6 +79,7 @@ static void event_handler(void* arg, esp_event_base_t event_base,
         s_retry_num = 0;
         xEventGroupSetBits(s_wifi_event_group, WIFI_CONNECTED_BIT);
     }
+    //https_request();
 }
 
 void wifi_init_sta(void)
@@ -134,6 +136,7 @@ void wifi_init_sta(void)
     if (bits & WIFI_CONNECTED_BIT) {
         ESP_LOGI(TAG, "connected to ap SSID:%s password:%s",
                  EXAMPLE_ESP_WIFI_SSID, EXAMPLE_ESP_WIFI_PASS);
+        https_request();
     } else if (bits & WIFI_FAIL_BIT) {
         ESP_LOGI(TAG, "Failed to connect to SSID:%s, password:%s",
                  EXAMPLE_ESP_WIFI_SSID, EXAMPLE_ESP_WIFI_PASS);
