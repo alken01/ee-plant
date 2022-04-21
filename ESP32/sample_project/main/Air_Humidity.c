@@ -78,7 +78,7 @@ _Noreturn void counter_task(void* arg) {
 
 }
 
-    void app_main(void) {
+    void start_humidity(void) {
 
     gpio_set_direction(GPIO_FREQ, GPIO_MODE_INPUT);
     gpio_set_pull_mode(GPIO_FREQ,GPIO_FLOATING);
