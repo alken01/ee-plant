@@ -45,6 +45,25 @@ The following user stories were closed:
 
 [Video Sprint 1](https://kuleuven.mediaspace.kaltura.com/media/EE5+Team+IoT+2+-+Sprint+1/1_wgv9ouep)
 
+### Sprint 2
+
+The following user stories were closed:
+
+- As a user I want to know the water level of the reservoir
+- As a user I want to know if the plant is in light
+- As a user I want to know the humidity and the moisture
+- As a user I want to know the temperature
+- As a user I want to organise the data in databases
+- As a user I want a nice exterior design/case
+
+Progress was made in the following:
+
+- As a user I want to have a custom REST API
+- As a user I want an Android App to control the device
+- As a user I want to control the lighting
+
+[Video Sprint 2](https://kuleuven.mediaspace.kaltura.com/media/EE5+Team+IoT+2+-+Sprint+2/1_kdvxv84o)
+
 ## Design
 ![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Extra/MockV1.png)
 
