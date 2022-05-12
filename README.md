@@ -64,6 +64,20 @@ Progress was made in the following:
 
 [Video Sprint 2](https://kuleuven.mediaspace.kaltura.com/media/EE5+Team+IoT+2+-+Sprint+2/1_kdvxv84o)
 
+### Sprint 3
+
+The following user stories were closed:
+
+- As a user I want an iOS app to control the device
+- As a user I want to have a smart device
+- As a user I want everything to fit in the same case
+- As a user I want to water the plant
+- As a user I want to have web connectivity
+- As a user I want to have as minimal wiring as possible (PCB)
+
+[Video Sprint 3](https://kuleuven.mediaspace.kaltura.com/media/ee-plant+sprint+3+bew/1_60p68z9a)
+
+
 ## Design
 ![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Extra/MockV1.png)
 

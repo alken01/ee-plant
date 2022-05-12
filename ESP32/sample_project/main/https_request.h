@@ -1,1 +1,0 @@
-void https_request(void);
