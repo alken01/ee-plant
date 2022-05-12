@@ -1,0 +1,3 @@
+Tussen twee pinnen 2,54 mm
+Lengte van een rij = 11*2.54 = 27.94
+Verticaal van elkaar verwijderd = 21.65
