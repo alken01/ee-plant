@@ -78,7 +78,7 @@ The following user stories were closed:
 [Video Sprint 3](https://kuleuven.mediaspace.kaltura.com/media/ee-plant+sprint+3+bew/1_60p68z9a)
 
 
-## Design
-![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Extra/MockV1.png)
+## Poster
+![alt text](https://gitlab.groept.be/ee5/a21iot02/-/raw/main/Extra/poster.jpeg)
 
 
