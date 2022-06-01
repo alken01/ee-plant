@@ -1,1 +1,0 @@
-cmd='/snap/clion/190/bin/cmake/linux/bin/cmake;-DSDKCONFIG=/home/dries/Documents/EE5/Air_Humdity/sdkconfig;-DIDF_PATH=/home/dries/esp/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=python;-DEXTRA_COMPONENT_DIRS=/home/dries/esp/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/home/dries/Documents/EE5/Air_Humdity;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
