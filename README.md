@@ -1,4 +1,5 @@
-# ee-plant - EE5/IoT02🌱
+# ee-plant 🌱
+## EE5/IoT02
 ![alt text](https://raw.githubusercontent.com/alken01/ee-plant/main/Extra/poster.jpeg)
 
 ### Intro
