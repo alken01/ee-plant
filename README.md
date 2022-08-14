@@ -1,6 +1,5 @@
 # The EE-Plant 🌱
 ## EE5 Project - Team IoT 02
-![alt text](https://raw.githubusercontent.com/alken01/ee-plant/main/Extra/logo.png)
 
 ## Poster
 ![alt text](https://raw.githubusercontent.com/alken01/ee-plant/main/Extra/poster.jpeg)
@@ -81,4 +80,5 @@ The following user stories were closed:
 [Video Sprint 3](https://kuleuven.mediaspace.kaltura.com/media/ee-plant+sprint+3+bew/1_60p68z9a)
 
 
+![alt text](https://raw.githubusercontent.com/alken01/ee-plant/main/Extra/logo.png)
 
