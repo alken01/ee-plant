@@ -2,6 +2,9 @@
 ## EE5 Project - Team IoT 02
 ![alt text](https://raw.githubusercontent.com/alken01/ee-plant/main/Extra/logo.png)
 
+## Poster
+![alt text](https://raw.githubusercontent.com/alken01/ee-plant/main/Extra/poster.jpeg)
+
 ### Intro
 If you do not have the time to take care of your plants or when you are away from home for a few days, the EE-Plant can help you! The system can look after different plant species, from common house plants to exotic ones. Specialised algorithms are designed with that in mind, tailored for every kind. 
 
@@ -77,8 +80,5 @@ The following user stories were closed:
 
 [Video Sprint 3](https://kuleuven.mediaspace.kaltura.com/media/ee-plant+sprint+3+bew/1_60p68z9a)
 
-
-## Poster
-![alt text](https://raw.githubusercontent.com/alken01/ee-plant/main/Extra/poster.jpeg)
 
 
